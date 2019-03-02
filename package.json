@@ -1,0 +1,31 @@
+{
+  "name": "koascaffold",
+  "version": "1.0.0",
+  "description": "scaffold base on koa.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MANSOUL/koaScaffold.git"
+  },
+  "keywords": [
+    "scaffold",
+    "koa"
+  ],
+  "author": "KuangGuanghu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MANSOUL/koaScaffold/issues"
+  },
+  "homepage": "https://github.com/MANSOUL/koaScaffold#readme",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.0",
+    "koa": "^2.7.0",
+    "koa-body": "^4.0.8",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "qiniu": "^7.2.1"
+  }
+}
